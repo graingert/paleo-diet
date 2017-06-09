@@ -1,0 +1,23 @@
+{
+  "name": "paleo-diet",
+  "version": "0.0.0",
+  "description": "Make your JS go on a paleo diet!",
+  "main": "index.js",
+  "author": "Thomas Grainger <paleo-diet@graingert.co.uk>",
+  "repository": "git@github.com:graingert/paleo-diet.git",
+  "license": "MIT",
+  "scripts": {
+    "prepublish": "babel-node scripts/build-script.js > index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-preset-env": "^1.5.2",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.2.0",
+    "lodash": "^4.17.4",
+    "mz": "^2.6.0"
+  },
+  "files": ["index.js"]
+}
