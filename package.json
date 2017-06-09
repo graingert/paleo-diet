@@ -1,6 +1,6 @@
 {
   "name": "paleo-diet",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Make your JS go on a paleo diet!",
   "main": "index.js",
   "author": "Thomas Grainger <paleo-diet@graingert.co.uk>",
@@ -19,5 +19,7 @@
     "lodash": "^4.17.4",
     "mz": "^2.6.0"
   },
-  "files": ["index.js"]
+  "files": [
+    "index.js"
+  ]
 }
